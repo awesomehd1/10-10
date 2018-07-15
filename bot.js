@@ -28,6 +28,6 @@ bot.on('ready', () => {
         message.channel.send("Done!")
 
     }
-});
+})
 
 const token = "NDY3MTI3NDQxODE5ODI4MjQ1.DimF1w.SafFKlnSVXPlzcX37nG99aLJA_k"
