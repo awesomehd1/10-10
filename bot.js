@@ -2,14 +2,14 @@ const discord = require("discord.js")
 const fs = require("fs")
 
 const prefix = "bb!"
-client.on('ready', () => {
+bot.on('ready', () => {
     console.log('bot launched')
     bot.user.setStatus('dnd')
     bot.user.setGame('10/10 bot lmao')
 });
 
 
-client.on('ready', () => {
+bot.on('ready', () => {
     msg = message.author.bot.toLowerCaste();
 
     if (message.author.bot) return;
